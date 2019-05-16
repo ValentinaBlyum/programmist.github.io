@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Программируем на Python!</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"> 
+  <style type="text/css" media="screen" >
+    #editor { 
+        height: 30px;
+        width: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    		}
+	</style> 
+</head>
+
+<body class="grey lighten-3">
+
+ <!--Меню вверху-->
+    <header>    
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportContent" aria-control="navbarSupportContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportContent">
+            <ul class="navbar-nav  mr-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a href="kurs.html" class="nav-link">Курсы</a>
+              </li>
+              <li class="nav-item active">
+                <a href="inf.html" class="nav-link">Полезная информация</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  	
+
+
+  	<!--Боковое меню по сайту-->
+  	<div class="sidebar-fixed position-fixed">
+  		<a href="#" class="logo-wrapper waves-effect">
+  			<img src="img/logo.png" alt="" class="img-fluid" height="300" width="500">
+  		</a>
+  		<div class="list-group list-group-flush">
+  			<a href="#" class="list-group-item waves-effect">
+  				<i class="mr-3">Установка</i>
+  			</a>
+        <a href="#prot" class="list-group-item waves-effect">
+          <i class="mr-3">Установка в GNU/Linux и BSD</i>
+        </a>
+        <a href="#prot2" class="list-group-item waves-effect">
+          <i class="mr-3">Установка в Windows</i>
+        </a>
+        <a href="#protn" class="list-group-item waves-effect">
+          <i class="mr-3">Командная строка DOS</i>
+        </a>
+        <a href="#prot4" class="list-group-item waves-effect">
+          <i class="mr-3">Запуск командной строки Python в Window</i>
+        </a>
+        <a href="#protl" class="list-group-item waves-effect">
+          <i class="mr-3">Для пользователей Mac OS X</i>
+        </a>
+  			  		</div>
+  	</div>
+	</header>
+
+	<main class="pt-5 max-lg-5">
+		<div class="container-fluid mt-5">
+		<div class="card mb-4 wow fadeIn">
+          <div class="content text-block">
+			     <h4>Установка</h4>
+           <p>Если у вас уже установлен Python 2.x, нет необходимости его удалять для того, чтобы установить Python 3.0. Обе версии могут быть установлены в системе одновременно.</p>
+         </div><p><a name="prot"></a></p> 
+       </div>
+     </div>
+   </main>
+
+
+   <main>
+    <div class="container-fluid mt-5">
+    <div class="card mb-4 wow fadeIn">
+          <div class="content text-block">
+           <h4>Установка в GNU/Linux и BSD</h4>
+           <p>Если вы используете один из дистрибутивов GNU/Linux, таких как Ubuntu, Fedora, OpenSUSE, Debian, CentOS или {ваш вариант}, или один из вариантов BSD, как например, FreeBSD, то скорее всего, в вашей системе уже установлен Python. </p>
+           <p>Чтобы проверить, установлен ли Python на вашей машине с BSD или GNU/Linux, откройте эмулятор терминала (например, konsole или gnome-terminal) и введите команду python -V, как показано ниже.</p>
+           <p>$ python -V</p>
+           <p>Python 3.3.0</p>
+           <p>Если вы видите информацию о версии, как показано выше, значит Python у вас уже установлен. </p>
+           <p>Если же вы получаете такое сообщение:</p>
+           <p>$ python -V</p>
+           <p>bash: Python: command not found</p>
+           <p>bash: Python: command not found</p>
+           <p>В этом случае у вас будут два варианта установки Python:</p>
+           <ul>
+             <li>Скомпилировать Python из исходных текстов и установить его. Инструкция по компиляции есть на указанном веб-сайте.</li>
+             <li> Установить бинарные пакеты, используя пакетный менеджер, входящий в комплект поставки вашей ОС, как например, apt-get в Ubuntu/Debian и других дистрибутивах, основанных на Debian, yum в Fedora, pkg_add во FreeBSD, и т.д. Обратите внимание, что для этого потребуется соединение с Интернетом. В противном случае вы можете любым другим способом скопировать бинарники на свой компьютер и установить оттуда.</li>
+           </ul>
+         </div><p><a name="prot2"></a></p> 
+       </div>
+     </div>
+   </main>
+
+
+          <main>
+    <div class="container-fluid mt-5">
+    <div class="card mb-4 wow fadeIn">
+          <div class="content text-block">
+           <h4>Установка в Windows</h4>
+           <p>Посетите страницу http://www.python.org/download/ и загрузите последнюю версию. Установка производится так же, как и для любых других программ для Windows.</p>
+         </div><p><a name="protn"></a></p> 
+       </div>
+     </div>
+   </main>
+
+
+          <main>
+    <div class="container-fluid mt-5">
+    <div class="card mb-4 wow fadeIn">
+          <div class="content text-block">
+           <h4>Командная строка DOS</h4>
+           <p>Для использования Python из командной строки Windows, т.е. приглашения DOS, необходимо установить должным образом переменную PATH. </p>
+           <p> перейдите в «Панель управления» → «Система» → «Дополнительно» → «Переменные среды». Нажмите на переменной с именем PATH в отделе «Системные переменные», после этого выберите «Редактировать»и допишите ;C:\Python33 к концу того, что там уже есть (проверьте, существует ли такой каталог, так как для более новых версий Python он будет иметь другое имя). Конечно, укажите действительное имя каталога. </p>
+         </div>
+       </div>
+     </div>
+   </main>
+
+
+          <main>
+    <div class="container-fluid mt-5">
+    <div class="card mb-4 wow fadeIn">
+          <div class="content text-block">
+           <h4>Запуск командной строки Python в Window</h4>
+           <p>Если вы должным образом установили значение переменной PATH, теперь можно запускать интерпретатор из командной строки. </p>
+           <p>Чтобы открыть терминал в Windows, нажмите кнопку «Пуск» и выберите «Выполнить». В появившемся диалоговом окне наберите cmd и нажмите Enter. </p>
+           <p>Затем наберите python3 -V и проверьте, нет ли ошибок.</p>
+         </div><p><a name="prot4"></a></p> 
+       </div>
+     </div>
+   </main>
+
+
+          <main>
+    <div class="container-fluid mt-5">
+    <div class="card mb-4 wow fadeIn">
+          <div class="content text-block">
+           <h4>Для пользователей Mac OS X</h4>
+           <p>У пользователей Mac OS X Python уже будет установлен в системе. В противном случае вы можете открыть терминал, нажав Command+Пробел, набрав в открывшейся строке поиска Terminal и нажав Enter.</p>
+           <p>Затем установить Homebrew, выполнив:</p>
+           <p>ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"</p>
+           <p>После чего установить Python 3 при помощи:</p>
+           <p>brew install python3</p>
+           <p>А теперь запустите python3 -V и проверьте, нет ли ошибок.</p>
+          </div><p><a name="protl"></a></p> 
+        </div>
+      </div>
+    </main>
+      
+    </div>
+    </div>
+</main>
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

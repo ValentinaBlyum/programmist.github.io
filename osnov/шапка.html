@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Программируем на Python!</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/mdb.min.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"> 
+  <style type="text/css" media="screen" >
+    #editor { 
+        height: 100px;
+        width: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        }
+  </style>
+</head>
+<body class="grey lighten-3">
+  <!--Меню вверху-->
+    <header>    
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportContent" aria-control="navbarSupportContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportContent">
+            <ul class="navbar-nav  mr-auto">
+              <li class="nav-item">
+                <a href="../index.html" class="nav-link">Название вкладки</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--Боковое меню по сайту-->
+    <div class="sidebar-fixed position-fixed scroll">
+      <a href="#" class="logo-wrapper waves-effect"> 
+        <img src="../img/logo.png" alt="" class="img-fluid" height="300" width="300">
+      </a>
+      <div class="list-group list-group-flush">
+        <a href="uroki.html" class="list-group-item waves-effect active">
+          <i class="mr-3">Название объекта оглавления</i>
+        </a>
+      </div>
+    </div>
+  </header>
+  <script src="../js/ace.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/textmate");
+    editor.session.setMode("ace/mode/python");
+    code.setShowPrintMargin(false);               // опционально: убираем вертикальную границу в 80 сиволов
+        code.setOptions({
+            maxLines: Infinity,                       // опционально: масштабировать редактор вертикально по размеру кода
+            fontSize: "50pt",                         // опционально: размер шрифта ставим побольше
+        });
+        code.$blockScrolling = Infinity;              // отключаем устаревшие, не поддерживаемые фишки редактора
+
+</script>
+  <script type="text/javascript" src="../js/jquery-3.4.0.min.js"></script>
+  <script type="text/javascript" src="../js/popper.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/mdb.min.js"></script>
+</body>
+</html>
